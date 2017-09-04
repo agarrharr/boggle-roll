@@ -1,5 +1,7 @@
 # boggle-roll
 
+[![Build Status](https://travis-ci.org/agarrharr/boggle-roll.svg?branch=master)](https://travis-ci.org/agarrharr/boggle-roll)
+
 ## Usage
 
 ```js
@@ -47,6 +49,7 @@ const die = [
   ['H', 'L', 'N', 'N', 'R', 'Z'],
   ['D', 'E', 'I', 'L', 'R', 'X']
 ];
+boggleRoll(die);
 ```
 
 ## License
