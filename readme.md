@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/agarrharr/boggle-roll.svg?branch=master)](https://travis-ci.org/agarrharr/boggle-roll)
 
+## Install
+
+```
+$ npm install --save boggle-roll
+```
+
 ## Usage
 
 ```js
