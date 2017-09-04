@@ -1,0 +1,28 @@
+{
+  "name": "boggle-roll",
+  "version": "1.0.0",
+  "description": "Returns the result of a boggle roll.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarrharr/boggle-roll.git"
+  },
+  "keywords": [
+    "boggle",
+    "dice",
+    "game"
+  ],
+  "author": "Adam Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agarrharr/boggle-roll/issues"
+  },
+  "homepage": "https://github.com/agarrharr/boggle-roll#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "xo": "^0.18.2"
+  }
+}
