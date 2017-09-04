@@ -7,7 +7,6 @@ test(t => {
 
 	t.is(result.length, 4);
 	t.is(result[0].length, 4);
-	t.true(firstDie.includes(result[0][0]));
 });
 
 test(t => {
@@ -21,5 +20,4 @@ test(t => {
 
 	t.is(result.length, 2);
 	t.is(result[0].length, 2);
-	t.true(die[0].includes(result[0][0]));
 });

@@ -1,5 +1,7 @@
 'use strict';
 
+const arrayShuffle = require('array-shuffle');
+
 const defaultDie = [
   ['A', 'A', 'E', 'E', 'G', 'N'],
   ['E', 'L', 'R', 'T', 'T', 'Y'],
@@ -25,7 +27,8 @@ const getRandom = dice => dice[randomNumber(dice.length)];
 
 const boggleRoll = (die = defaultDie) => {
   const boardSize = Math.floor(Math.sqrt(die.length));
-  return die.reduce((a, c, i) => {
+  const shuffled = arrayShuffle(die);
+  return shuffled.reduce((a, c, i) => {
     if (a.length) {
       if (a[a.length - 1].length < boardSize) {
         a[a.length - 1].push(getRandom(c));

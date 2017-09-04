@@ -24,5 +24,8 @@
   "devDependencies": {
     "ava": "^0.21.0",
     "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "array-shuffle": "^1.0.1"
   }
 }
