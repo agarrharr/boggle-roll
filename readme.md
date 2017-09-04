@@ -26,20 +26,20 @@ boggleRoll();
 
 ## API
 
-### boggleRoll([die])
+### boggleRoll([dice])
 
 Returns the result of a boggle roll.
 
-#### die `optional`
+#### dice `optional`
 
 Type: `2d array of strings`
 
-A representation of all 16 boggle die. This allows you to use this for different languages, or different distributions of letters. It is an array of x arrays (typically 16 for a 4x4 board). Each of those arrays has y strings (typically 6 to represent 6 sided die). Each of those stings can be any length (typically 1, but Qu is an example of why you might want it to be longer).
+A representation of all 16 boggle dice. This allows you to use this for different languages, or different distributions of letters. It is an array of x arrays (typically 16 for a 4x4 board). Each of those arrays has y strings (typically 6 to represent a 6 sided die). Each of those stings can be any length (typically 1, but Qu is an example of why you might want it to be longer).
 
 Example:
 
 ```js
-const die = [
+const dice = [
   ['A', 'A', 'E', 'E', 'G', 'N'],
   ['E', 'L', 'R', 'T', 'T', 'Y'],
   ['A', 'O', 'O', 'T', 'T', 'W'],
@@ -57,7 +57,7 @@ const die = [
   ['H', 'L', 'N', 'N', 'R', 'Z'],
   ['D', 'E', 'I', 'L', 'R', 'X']
 ];
-boggleRoll(die);
+boggleRoll(dice);
 ```
 
 ## License

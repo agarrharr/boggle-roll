@@ -10,13 +10,13 @@ test(t => {
 });
 
 test(t => {
-	const die = [
+	const dice = [
 	  ['A', 'A', 'E', 'E', 'G', 'N'],
 	  ['E', 'L', 'R', 'T', 'T', 'Y'],
 	  ['A', 'O', 'O', 'T', 'T', 'W'],
 	  ['A', 'B', 'B', 'J', 'O', 'O'],
 	];
-	const result = m(die);
+	const result = m(dice);
 
 	t.is(result.length, 2);
 	t.is(result[0].length, 2);

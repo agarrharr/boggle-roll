@@ -2,7 +2,7 @@
 
 const arrayShuffle = require('array-shuffle');
 
-const defaultDie = [
+const defaultDice = [
   ['A', 'A', 'E', 'E', 'G', 'N'],
   ['E', 'L', 'R', 'T', 'T', 'Y'],
   ['A', 'O', 'O', 'T', 'T', 'W'],
@@ -23,11 +23,11 @@ const defaultDie = [
 
 const randomNumber = max => Math.floor(Math.random() * max);
 
-const getRandom = dice => dice[randomNumber(dice.length)];
+const getRandom = die => die[randomNumber(die.length)];
 
-const boggleRoll = (die = defaultDie) => {
-  const boardSize = Math.floor(Math.sqrt(die.length));
-  const shuffled = arrayShuffle(die);
+const boggleRoll = (dice = defaultDice) => {
+  const boardSize = Math.floor(Math.sqrt(dice.length));
+  const shuffled = arrayShuffle(dice);
   return shuffled.reduce((a, c, i) => {
     if (a.length) {
       if (a[a.length - 1].length < boardSize) {
@@ -41,4 +41,4 @@ const boggleRoll = (die = defaultDie) => {
   }, []);
 };
 
-module.exports = die => boggleRoll(die);
+module.exports = dice => boggleRoll(dice);
