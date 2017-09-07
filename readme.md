@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/agarrharr/boggle-roll.svg?branch=master)](https://travis-ci.org/agarrharr/boggle-roll)
 
-<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/boggle-roll" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/boggle-roll.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
-
 ## Install
 
 ```
@@ -63,3 +61,5 @@ boggleRoll(dice);
 ## License
 
 MIT
+
+<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/boggle-roll" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/boggle-roll.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
